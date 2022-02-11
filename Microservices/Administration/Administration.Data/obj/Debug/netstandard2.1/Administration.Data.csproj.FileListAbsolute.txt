@@ -1,0 +1,10 @@
+C:\Projects\DriveToWeb\DEV\Microservices\Administration\Administration.Data\bin\Debug\netstandard2.1\Administration.Data.deps.json
+C:\Projects\DriveToWeb\DEV\Microservices\Administration\Administration.Data\bin\Debug\netstandard2.1\Administration.Data.dll
+C:\Projects\DriveToWeb\DEV\Microservices\Administration\Administration.Data\bin\Debug\netstandard2.1\Administration.Data.pdb
+C:\Projects\DriveToWeb\DEV\Microservices\Administration\Administration.Data\obj\Debug\netstandard2.1\Administration.Data.csproj.AssemblyReference.cache
+C:\Projects\DriveToWeb\DEV\Microservices\Administration\Administration.Data\obj\Debug\netstandard2.1\Administration.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\DriveToWeb\DEV\Microservices\Administration\Administration.Data\obj\Debug\netstandard2.1\Administration.Data.AssemblyInfoInputs.cache
+C:\Projects\DriveToWeb\DEV\Microservices\Administration\Administration.Data\obj\Debug\netstandard2.1\Administration.Data.AssemblyInfo.cs
+C:\Projects\DriveToWeb\DEV\Microservices\Administration\Administration.Data\obj\Debug\netstandard2.1\Administration.Data.csproj.CoreCompileInputs.cache
+C:\Projects\DriveToWeb\DEV\Microservices\Administration\Administration.Data\obj\Debug\netstandard2.1\Administration.Data.dll
+C:\Projects\DriveToWeb\DEV\Microservices\Administration\Administration.Data\obj\Debug\netstandard2.1\Administration.Data.pdb

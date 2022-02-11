@@ -1,0 +1,10 @@
+C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Data\bin\Debug\netstandard2.1\Analytics.Data.deps.json
+C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Data\bin\Debug\netstandard2.1\Analytics.Data.dll
+C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Data\bin\Debug\netstandard2.1\Analytics.Data.pdb
+C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Data\obj\Debug\netstandard2.1\Analytics.Data.csproj.AssemblyReference.cache
+C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Data\obj\Debug\netstandard2.1\Analytics.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Data\obj\Debug\netstandard2.1\Analytics.Data.AssemblyInfoInputs.cache
+C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Data\obj\Debug\netstandard2.1\Analytics.Data.AssemblyInfo.cs
+C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Data\obj\Debug\netstandard2.1\Analytics.Data.csproj.CoreCompileInputs.cache
+C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Data\obj\Debug\netstandard2.1\Analytics.Data.dll
+C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Data\obj\Debug\netstandard2.1\Analytics.Data.pdb

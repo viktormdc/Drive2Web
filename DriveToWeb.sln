@@ -1,0 +1,220 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{4E868E90-5BBF-4298-A33E-95A4A71BF4BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Administration", "Administration", "{5DBDDE8D-2079-4184-BC06-059FB27CBB40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Analytics", "Analytics", "{D32270F7-EA06-401D-9599-243F2380A7CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Analytics.Microservice", "Microservices\Analytics\Analytics.Microservice\Analytics.Microservice.csproj", "{4DD0B35A-654F-47EE-B08E-7B0604325404}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Administration.Microservice", "Microservices\Administration\Administration.Microservice\Administration.Microservice.csproj", "{228438E0-460D-4FD9-843A-04EAB446512C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTW.Web", "DTW.Web", "{1088DB5C-EDF1-4966-A269-9C902F5F6784}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Administration.Domain", "Microservices\Administration\Administration.Domain\Administration.Domain.csproj", "{7F1B4691-305A-4956-9598-AE4A1AA0A298}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Administration.Data", "Microservices\Administration\Administration.Data\Administration.Data.csproj", "{451E34EE-C2C2-42D0-8558-FF41683F3E1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Administration.Service", "Microservices\Administration\Administration.Service\Administration.Service.csproj", "{1D2BAB83-F556-48EA-84E4-78AE27333440}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3E6B75E5-6DB7-4516-AAE9-D6347193971D}"
+	ProjectSection(SolutionItems) = preProject
+		DTW.Web\angular\src\favicon.ico = DTW.Web\angular\src\favicon.ico
+		DTW.Web\angular\src\index.html = DTW.Web\angular\src\index.html
+		DTW.Web\angular\src\main.ts = DTW.Web\angular\src\main.ts
+		DTW.Web\angular\src\polyfills.ts = DTW.Web\angular\src\polyfills.ts
+		DTW.Web\angular\src\styles.css = DTW.Web\angular\src\styles.css
+		DTW.Web\angular\src\test.ts = DTW.Web\angular\src\test.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{CB5D91DC-AB95-49D8-A225-08BA0D1E2BA9}"
+	ProjectSection(SolutionItems) = preProject
+		DTW.Web\angular\src\app\app-routing.module.ts = DTW.Web\angular\src\app\app-routing.module.ts
+		DTW.Web\angular\src\app\app.component.css = DTW.Web\angular\src\app\app.component.css
+		DTW.Web\angular\src\app\app.component.html = DTW.Web\angular\src\app\app.component.html
+		DTW.Web\angular\src\app\app.component.spec.ts = DTW.Web\angular\src\app\app.component.spec.ts
+		DTW.Web\angular\src\app\app.component.ts = DTW.Web\angular\src\app\app.component.ts
+		DTW.Web\angular\src\app\app.module.ts = DTW.Web\angular\src\app\app.module.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{A5ACDACC-F2A5-4D20-944E-21B15CE23249}"
+	ProjectSection(SolutionItems) = preProject
+		DTW.Web\angular\src\assets\.gitkeep = DTW.Web\angular\src\assets\.gitkeep
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "environments", "environments", "{6F49A199-7635-449C-BAC8-8E777E098B80}"
+	ProjectSection(SolutionItems) = preProject
+		DTW.Web\angular\src\environments\environment.prod.ts = DTW.Web\angular\src\environments\environment.prod.ts
+		DTW.Web\angular\src\environments\environment.ts = DTW.Web\angular\src\environments\environment.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "angular", "angular", "{78FB73B7-E988-4301-9D69-DAA59461643D}"
+	ProjectSection(SolutionItems) = preProject
+		DTW.Web\angular\.browserslistrc = DTW.Web\angular\.browserslistrc
+		DTW.Web\angular\.editorconfig = DTW.Web\angular\.editorconfig
+		DTW.Web\angular\.gitignore = DTW.Web\angular\.gitignore
+		DTW.Web\angular\angular.json = DTW.Web\angular\angular.json
+		DTW.Web\angular\Dockerfile = DTW.Web\angular\Dockerfile
+		DTW.Web\angular\karma.conf.js = DTW.Web\angular\karma.conf.js
+		nginx.conf = nginx.conf
+		DTW.Web\angular\package-lock.json = DTW.Web\angular\package-lock.json
+		DTW.Web\angular\package.json = DTW.Web\angular\package.json
+		DTW.Web\angular\README.md = DTW.Web\angular\README.md
+		DTW.Web\angular\tsconfig.app.json = DTW.Web\angular\tsconfig.app.json
+		DTW.Web\angular\tsconfig.json = DTW.Web\angular\tsconfig.json
+		DTW.Web\angular\tsconfig.spec.json = DTW.Web\angular\tsconfig.spec.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Analytics.Domain", "Microservices\Analytics\Analytics.Domain\Analytics.Domain.csproj", "{FB20301B-B833-4AE2-97A0-209939D3712B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Analytics.Data", "Microservices\Analytics\Analytics.Data\Analytics.Data.csproj", "{C37435AC-A0FA-450D-9A33-5AF8BB4E6CC3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Analytics.Service", "Microservices\Analytics\Analytics.Service\Analytics.Service.csproj", "{5F55EE86-1097-4370-A674-2FC9F6A5DE0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RabbitMQ", "RabbitMQ", "{CF7F20E7-D81D-4C2A-8B58-6719E4AC70CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rabbit.Domain.Core", "Rabbit.Domain.Core\Rabbit.Domain.Core.csproj", "{AE796818-F5DA-4652-8EA7-3E0F64CA13FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rabbit.Infrastructure.Bus", "Rabbit.Infrastructure.Bus\Rabbit.Infrastructure.Bus.csproj", "{D0C1C4B9-350F-4B2E-AABF-2B0DD5CBD1F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rabbit.Infrastructure.IoC", "Rabbit.Infrastructure.IoC\Rabbit.Infrastructure.IoC.csproj", "{6FD1B428-6F38-465C-AC17-B9CC2C35A122}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2C005D3D-DEBA-49A3-A976-8897A4F3386E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DD0B35A-654F-47EE-B08E-7B0604325404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DD0B35A-654F-47EE-B08E-7B0604325404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DD0B35A-654F-47EE-B08E-7B0604325404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DD0B35A-654F-47EE-B08E-7B0604325404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{228438E0-460D-4FD9-843A-04EAB446512C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{228438E0-460D-4FD9-843A-04EAB446512C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{228438E0-460D-4FD9-843A-04EAB446512C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{228438E0-460D-4FD9-843A-04EAB446512C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F1B4691-305A-4956-9598-AE4A1AA0A298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F1B4691-305A-4956-9598-AE4A1AA0A298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F1B4691-305A-4956-9598-AE4A1AA0A298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F1B4691-305A-4956-9598-AE4A1AA0A298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{451E34EE-C2C2-42D0-8558-FF41683F3E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{451E34EE-C2C2-42D0-8558-FF41683F3E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{451E34EE-C2C2-42D0-8558-FF41683F3E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{451E34EE-C2C2-42D0-8558-FF41683F3E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D2BAB83-F556-48EA-84E4-78AE27333440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D2BAB83-F556-48EA-84E4-78AE27333440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D2BAB83-F556-48EA-84E4-78AE27333440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D2BAB83-F556-48EA-84E4-78AE27333440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB20301B-B833-4AE2-97A0-209939D3712B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB20301B-B833-4AE2-97A0-209939D3712B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB20301B-B833-4AE2-97A0-209939D3712B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB20301B-B833-4AE2-97A0-209939D3712B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C37435AC-A0FA-450D-9A33-5AF8BB4E6CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C37435AC-A0FA-450D-9A33-5AF8BB4E6CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C37435AC-A0FA-450D-9A33-5AF8BB4E6CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C37435AC-A0FA-450D-9A33-5AF8BB4E6CC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F55EE86-1097-4370-A674-2FC9F6A5DE0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F55EE86-1097-4370-A674-2FC9F6A5DE0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F55EE86-1097-4370-A674-2FC9F6A5DE0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F55EE86-1097-4370-A674-2FC9F6A5DE0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE796818-F5DA-4652-8EA7-3E0F64CA13FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE796818-F5DA-4652-8EA7-3E0F64CA13FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE796818-F5DA-4652-8EA7-3E0F64CA13FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE796818-F5DA-4652-8EA7-3E0F64CA13FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0C1C4B9-350F-4B2E-AABF-2B0DD5CBD1F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0C1C4B9-350F-4B2E-AABF-2B0DD5CBD1F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0C1C4B9-350F-4B2E-AABF-2B0DD5CBD1F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0C1C4B9-350F-4B2E-AABF-2B0DD5CBD1F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FD1B428-6F38-465C-AC17-B9CC2C35A122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FD1B428-6F38-465C-AC17-B9CC2C35A122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FD1B428-6F38-465C-AC17-B9CC2C35A122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FD1B428-6F38-465C-AC17-B9CC2C35A122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C005D3D-DEBA-49A3-A976-8897A4F3386E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C005D3D-DEBA-49A3-A976-8897A4F3386E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C005D3D-DEBA-49A3-A976-8897A4F3386E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C005D3D-DEBA-49A3-A976-8897A4F3386E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5DBDDE8D-2079-4184-BC06-059FB27CBB40} = {4E868E90-5BBF-4298-A33E-95A4A71BF4BF}
+		{D32270F7-EA06-401D-9599-243F2380A7CF} = {4E868E90-5BBF-4298-A33E-95A4A71BF4BF}
+		{4DD0B35A-654F-47EE-B08E-7B0604325404} = {D32270F7-EA06-401D-9599-243F2380A7CF}
+		{228438E0-460D-4FD9-843A-04EAB446512C} = {5DBDDE8D-2079-4184-BC06-059FB27CBB40}
+		{7F1B4691-305A-4956-9598-AE4A1AA0A298} = {5DBDDE8D-2079-4184-BC06-059FB27CBB40}
+		{451E34EE-C2C2-42D0-8558-FF41683F3E1F} = {5DBDDE8D-2079-4184-BC06-059FB27CBB40}
+		{1D2BAB83-F556-48EA-84E4-78AE27333440} = {5DBDDE8D-2079-4184-BC06-059FB27CBB40}
+		{3E6B75E5-6DB7-4516-AAE9-D6347193971D} = {78FB73B7-E988-4301-9D69-DAA59461643D}
+		{CB5D91DC-AB95-49D8-A225-08BA0D1E2BA9} = {3E6B75E5-6DB7-4516-AAE9-D6347193971D}
+		{A5ACDACC-F2A5-4D20-944E-21B15CE23249} = {3E6B75E5-6DB7-4516-AAE9-D6347193971D}
+		{6F49A199-7635-449C-BAC8-8E777E098B80} = {3E6B75E5-6DB7-4516-AAE9-D6347193971D}
+		{78FB73B7-E988-4301-9D69-DAA59461643D} = {1088DB5C-EDF1-4966-A269-9C902F5F6784}
+		{FB20301B-B833-4AE2-97A0-209939D3712B} = {D32270F7-EA06-401D-9599-243F2380A7CF}
+		{C37435AC-A0FA-450D-9A33-5AF8BB4E6CC3} = {D32270F7-EA06-401D-9599-243F2380A7CF}
+		{5F55EE86-1097-4370-A674-2FC9F6A5DE0B} = {D32270F7-EA06-401D-9599-243F2380A7CF}
+		{CF7F20E7-D81D-4C2A-8B58-6719E4AC70CA} = {4E868E90-5BBF-4298-A33E-95A4A71BF4BF}
+		{AE796818-F5DA-4652-8EA7-3E0F64CA13FF} = {CF7F20E7-D81D-4C2A-8B58-6719E4AC70CA}
+		{D0C1C4B9-350F-4B2E-AABF-2B0DD5CBD1F5} = {CF7F20E7-D81D-4C2A-8B58-6719E4AC70CA}
+		{6FD1B428-6F38-465C-AC17-B9CC2C35A122} = {CF7F20E7-D81D-4C2A-8B58-6719E4AC70CA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8C992FC-9206-4388-8DF8-E4C474887691}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 12
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://devops.mdc.mk:8080/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Microservices\\Analytics\\Analytics.Microservice\\Analytics.Microservice.csproj
+		SccProjectTopLevelParentUniqueName1 = DriveToWeb.sln
+		SccProjectName1 = Microservices/Analytics/Analytics.Microservice
+		SccLocalPath1 = Microservices\\Analytics\\Analytics.Microservice
+		SccProjectUniqueName2 = Microservices\\Administration\\Administration.Microservice\\Administration.Microservice.csproj
+		SccProjectTopLevelParentUniqueName2 = DriveToWeb.sln
+		SccProjectName2 = Microservices/Administration/Administration.Microservice
+		SccLocalPath2 = Microservices\\Administration\\Administration.Microservice
+		SccProjectUniqueName3 = Microservices\\Administration\\Administration.Domain\\Administration.Domain.csproj
+		SccProjectTopLevelParentUniqueName3 = DriveToWeb.sln
+		SccProjectName3 = Microservices/Administration/Administration.Domain
+		SccLocalPath3 = Microservices\\Administration\\Administration.Domain
+		SccProjectUniqueName4 = Microservices\\Administration\\Administration.Data\\Administration.Data.csproj
+		SccProjectTopLevelParentUniqueName4 = DriveToWeb.sln
+		SccProjectName4 = Microservices/Administration/Administration.Data
+		SccLocalPath4 = Microservices\\Administration\\Administration.Data
+		SccProjectUniqueName5 = Microservices\\Administration\\Administration.Service\\Administration.Service.csproj
+		SccProjectTopLevelParentUniqueName5 = DriveToWeb.sln
+		SccProjectName5 = Microservices/Administration/Administration.Service
+		SccLocalPath5 = Microservices\\Administration\\Administration.Service
+		SccProjectUniqueName6 = Microservices\\Analytics\\Analytics.Domain\\Analytics.Domain.csproj
+		SccProjectTopLevelParentUniqueName6 = DriveToWeb.sln
+		SccProjectName6 = Microservices/Analytics/Analytics.Domain
+		SccLocalPath6 = Microservices\\Analytics\\Analytics.Domain
+		SccProjectUniqueName7 = Microservices\\Analytics\\Analytics.Data\\Analytics.Data.csproj
+		SccProjectTopLevelParentUniqueName7 = DriveToWeb.sln
+		SccProjectName7 = Microservices/Analytics/Analytics.Data
+		SccLocalPath7 = Microservices\\Analytics\\Analytics.Data
+		SccProjectUniqueName8 = Microservices\\Analytics\\Analytics.Service\\Analytics.Service.csproj
+		SccProjectTopLevelParentUniqueName8 = DriveToWeb.sln
+		SccProjectName8 = Microservices/Analytics/Analytics.Service
+		SccLocalPath8 = Microservices\\Analytics\\Analytics.Service
+		SccProjectUniqueName9 = Rabbit.Domain.Core\\Rabbit.Domain.Core.csproj
+		SccProjectTopLevelParentUniqueName9 = DriveToWeb.sln
+		SccProjectName9 = Rabbit.Domain.Core
+		SccLocalPath9 = Rabbit.Domain.Core
+		SccProjectUniqueName10 = Rabbit.Infrastructure.Bus\\Rabbit.Infrastructure.Bus.csproj
+		SccProjectTopLevelParentUniqueName10 = DriveToWeb.sln
+		SccProjectName10 = Rabbit.Infrastructure.Bus
+		SccLocalPath10 = Rabbit.Infrastructure.Bus
+		SccProjectUniqueName11 = Rabbit.Infrastructure.IoC\\Rabbit.Infrastructure.IoC.csproj
+		SccProjectTopLevelParentUniqueName11 = DriveToWeb.sln
+		SccProjectName11 = Rabbit.Infrastructure.IoC
+		SccLocalPath11 = Rabbit.Infrastructure.IoC
+	EndGlobalSection
+EndGlobal

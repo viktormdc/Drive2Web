@@ -1,0 +1,33 @@
+services:
+  analytics.microservice:
+    build:
+      context: C:\Projects\DriveToWeb\DEV
+      dockerfile: Microservices/Analytics/Analytics.Microservice/Dockerfile
+    container_name: analytics-api
+    environment:
+      ASPNETCORE_URLS: http://+:8801
+    image: analyticsmicroservice
+    ports:
+    - published: 8801
+      target: 8801
+  angular:
+    build:
+      context: C:\Projects\DriveToWeb\DEV
+      dockerfile: DTW.Web/angular/Dockerfile
+    container_name: angularweb
+    image: angularweb
+    ports:
+    - published: 80
+      target: 80
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3-management-alpine
+    ports:
+    - published: 5672
+      target: 5672
+    - published: 15672
+      target: 15672
+    volumes:
+    - C:\Users\aleksandar.dicoski\.docker-conf\rabbitmq\data:/var/lib/rabbitmq/:rw
+    - C:\Users\aleksandar.dicoski\.docker-conf\rabbitmq\log:/var/log/rabbitmq:rw
+version: '3.4'

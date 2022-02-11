@@ -1,0 +1,17 @@
+C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Service\bin\Debug\netstandard2.1\Analytics.Service.deps.json
+C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Service\bin\Debug\netstandard2.1\Analytics.Service.dll
+C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Service\bin\Debug\netstandard2.1\Analytics.Service.pdb
+C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Service\bin\Debug\netstandard2.1\Analytics.Data.dll
+C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Service\bin\Debug\netstandard2.1\Analytics.Domain.dll
+C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Service\bin\Debug\netstandard2.1\Rabbit.Domain.Core.dll
+C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Service\bin\Debug\netstandard2.1\Analytics.Data.pdb
+C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Service\bin\Debug\netstandard2.1\Analytics.Domain.pdb
+C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Service\bin\Debug\netstandard2.1\Rabbit.Domain.Core.pdb
+C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Service\obj\Debug\netstandard2.1\Analytics.Service.csproj.AssemblyReference.cache
+C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Service\obj\Debug\netstandard2.1\Analytics.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Service\obj\Debug\netstandard2.1\Analytics.Service.AssemblyInfoInputs.cache
+C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Service\obj\Debug\netstandard2.1\Analytics.Service.AssemblyInfo.cs
+C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Service\obj\Debug\netstandard2.1\Analytics.Service.csproj.CoreCompileInputs.cache
+C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Service\obj\Debug\netstandard2.1\Analytics.Service.csproj.CopyComplete
+C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Service\obj\Debug\netstandard2.1\Analytics.Service.dll
+C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Service\obj\Debug\netstandard2.1\Analytics.Service.pdb

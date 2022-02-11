@@ -1,0 +1,24 @@
+version: "3.4"
+
+services: 
+ 
+  #administration.microservice:
+  #  image: ${DOCKER_REGISTRY-}administrationmicroservice
+  #  build:
+  #    context: .
+  #    dockerfile: Microservices/Administration/Administration.Microservice/Dockerfile
+
+
+  analytics.microservice:
+    image: ${DOCKER_REGISTRY-}analyticsmicroservice
+    build:
+      context: .
+      dockerfile: Microservices/Analytics/Analytics.Microservice/Dockerfile
+
+
+  angular:
+    image: ${DOCKER_REGISTRY-}angularweb
+    build: 
+      context: .
+      dockerfile: DTW.Web/angular/Dockerfile
+

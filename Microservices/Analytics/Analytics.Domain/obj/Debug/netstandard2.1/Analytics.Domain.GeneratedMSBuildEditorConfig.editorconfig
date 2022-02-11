@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Analytics.Domain
+build_property.ProjectDir = C:\Projects\DriveToWeb\DEV\Microservices\Analytics\Analytics.Domain\

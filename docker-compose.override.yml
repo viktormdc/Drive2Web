@@ -1,0 +1,50 @@
+version: "3.4"
+
+services:
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    container_name: "rabbitmq"
+    ports:
+        - 5672:5672
+        - 15672:15672
+     
+  
+    volumes:
+        - ~/.docker-conf/rabbitmq/data/:/var/lib/rabbitmq/
+        - ~/.docker-conf/rabbitmq/log/:/var/log/rabbitmq
+
+  #administration.microservice:
+  #  container_name: "administration"
+  #  environment:
+  #    - ASPNETCORE_ENVIRONMENT=Development
+  #    - ASPNETCORE_URLS=https://+:443;http://+:8802
+  #  ports:
+  #    - "8802:80"
+     
+ 
+    #volumes:
+    #  - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+    #  - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+
+
+  analytics.microservice:
+    container_name: "analytics-api"
+    environment:
+      #- ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8801
+    ports:
+      - "8801:8801"
+   
+ 
+    #volumes:
+    #  - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+    #  - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+ 
+
+  angular:
+    container_name: "angularweb" 
+    ports:
+      - "80:80"
+     
+ 

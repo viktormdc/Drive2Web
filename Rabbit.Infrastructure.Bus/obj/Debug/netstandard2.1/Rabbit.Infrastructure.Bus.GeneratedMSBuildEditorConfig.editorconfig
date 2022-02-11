@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Rabbit.Infrastructure.Bus
+build_property.ProjectDir = C:\Projects\DriveToWeb\DEV\Rabbit.Infrastructure.Bus\

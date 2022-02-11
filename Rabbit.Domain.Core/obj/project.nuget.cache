@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "AjhKFWqVxTLDp95tJ296lZxT5xzemm/zRl8iwU74X+czRtY9z+Zw6WJ2J2X6WOByp7H98DC0/QPus0zjLRevqw==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\DriveToWeb\\DEV\\Rabbit.Domain.Core\\Rabbit.Domain.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aleksandar.dicoski\\.nuget\\packages\\facebook\\7.0.6\\facebook.7.0.6.nupkg.sha512",
+    "C:\\Users\\aleksandar.dicoski\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
+    "C:\\Users\\aleksandar.dicoski\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\aleksandar.dicoski\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\aleksandar.dicoski\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Facebook 7.0.6' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Facebook",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    }
+  ]
+}

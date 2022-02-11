@@ -1,0 +1,13 @@
+C:\Projects\DriveToWeb\DEV\Rabbit.Infrastructure.Bus\bin\Debug\netstandard2.1\Rabbit.Infrastructure.Bus.deps.json
+C:\Projects\DriveToWeb\DEV\Rabbit.Infrastructure.Bus\bin\Debug\netstandard2.1\Rabbit.Infrastructure.Bus.dll
+C:\Projects\DriveToWeb\DEV\Rabbit.Infrastructure.Bus\bin\Debug\netstandard2.1\Rabbit.Infrastructure.Bus.pdb
+C:\Projects\DriveToWeb\DEV\Rabbit.Infrastructure.Bus\bin\Debug\netstandard2.1\Rabbit.Domain.Core.dll
+C:\Projects\DriveToWeb\DEV\Rabbit.Infrastructure.Bus\bin\Debug\netstandard2.1\Rabbit.Domain.Core.pdb
+C:\Projects\DriveToWeb\DEV\Rabbit.Infrastructure.Bus\obj\Debug\netstandard2.1\Rabbit.Infrastructure.Bus.csproj.AssemblyReference.cache
+C:\Projects\DriveToWeb\DEV\Rabbit.Infrastructure.Bus\obj\Debug\netstandard2.1\Rabbit.Infrastructure.Bus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\DriveToWeb\DEV\Rabbit.Infrastructure.Bus\obj\Debug\netstandard2.1\Rabbit.Infrastructure.Bus.AssemblyInfoInputs.cache
+C:\Projects\DriveToWeb\DEV\Rabbit.Infrastructure.Bus\obj\Debug\netstandard2.1\Rabbit.Infrastructure.Bus.AssemblyInfo.cs
+C:\Projects\DriveToWeb\DEV\Rabbit.Infrastructure.Bus\obj\Debug\netstandard2.1\Rabbit.Infrastructure.Bus.csproj.CoreCompileInputs.cache
+C:\Projects\DriveToWeb\DEV\Rabbit.Infrastructure.Bus\obj\Debug\netstandard2.1\Rabbit.Infrastructure.Bus.csproj.CopyComplete
+C:\Projects\DriveToWeb\DEV\Rabbit.Infrastructure.Bus\obj\Debug\netstandard2.1\Rabbit.Infrastructure.Bus.dll
+C:\Projects\DriveToWeb\DEV\Rabbit.Infrastructure.Bus\obj\Debug\netstandard2.1\Rabbit.Infrastructure.Bus.pdb
